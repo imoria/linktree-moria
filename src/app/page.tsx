@@ -286,7 +286,7 @@ export default function Home() {
       `}</style>
       <div className="page">
         <div className="header">
-          <Image className="logo" src="/logo.png" alt="Igreja Moriá" width={88} height={88} />
+          <Image className="logo" src="/logo.png" alt="Logo Igreja Moriá" width={88} height={88} />
           <div className="church-name">Igreja Moriá</div>
           <div className="tagline">@somosamoria</div>
         </div>
