@@ -158,6 +158,8 @@ export default function Home() {
         .btn:nth-child(2) { animation-delay: 0.48s; }
         .btn:nth-child(3) { animation-delay: 0.61s; }
         .btn:nth-child(4) { animation-delay: 0.74s; }
+        .btn:nth-child(5) { animation-delay: 0.87s; }
+        .btn:nth-child(6) { animation-delay: 1s; }
         .btn::before {
           content: '';
           position: absolute;
@@ -312,6 +314,16 @@ export default function Home() {
             <span className="btn-body">
               <span className="btn-title">Nosso Site</span>
               <span className="btn-desc">somosamoria.com.br</span>
+            </span>
+            <svg className="btn-chevron" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+          <a href="https://youtube.com/c/igrejabatistamoriagaranhuns" className="btn" target="_blank" rel="noopener noreferrer">
+            <span className="btn-icon-wrap">
+              <svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M11 10l4 2-4 2v-4z"/></svg>
+            </span>
+            <span className="btn-body">
+              <span className="btn-title">YouTube</span>
+              <span className="btn-desc">Canal oficial da Igreja Moriá</span>
             </span>
             <svg className="btn-chevron" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
           </a>
